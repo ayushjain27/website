@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a27d1ae2a6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar-Section -->
+    <div class="navbar-box">
+        <div class="logo"><img class="images" src="./images/logo.png" alt=""></div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div id="navbarSection" class="modal-content">
+                    <div class="modal-header">
+                        <div class="logo"><img class="images" src="./images/logo.png" alt=""></div>
+                        <button style="filter: invert()" type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container container1" }>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-gift"></i></div>
+                                            <div class="col-11 col2">Home</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-heart"></i></div>
+                                            <div class="col-11 col2">MASSMATIC PORTAL</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-user"></i></div>
+                                            <div class="col-11 col2">MASSMATIC COURSES</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-circle-question"></i></div>
+                                            <div class="col-11 col2">TRAINING & WORKSHOPS</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-circle-info"></i></div>
+                                            <div class="col-11 col2">IMPORTANT LINKS</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <a class="ref" href="/">
+                                            <div class="col-1 col1"><i class="fa-solid fa-circle-info"></i></div>
+                                            <div class="col-11 col2">CONTACT US</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel-Section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators rounded">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+                aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/winner.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start18.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/trophy.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start19.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start17.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start20.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start3.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/start4.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="/">Know more</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Course-Section -->
+
+    <div>
+        <div class="courseHeading">Massmatic Cyber Forensic Courses
+            <div class="line"></div>
+        </div>
+    </div>
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div style="background-color: #0a0a0e; color: white;" class="card">
+                        <img style="width: 50%; margin: 0px auto" src="./images/one.png" class="card-img-top images1"
+                            alt="...">
+                        <div class="card-body">
+                            <div class="card-title course">Begineer's Level Course</div>
+                            <div class="card-title course">(Duration-: 30 Days)</div>
+                            <p class="card-text course1">Begineer's Dive into the world of Ethical Hacking & Cyber
+                                Security.</p>
+                            <a style="width: 100%;" href="https://massmaticcyberforensic.winuall.com/store-details/massmatic-cyber-security-and-ethical-hacking-begineers-level-course-122ea3" class="btn btn-danger">Begineer's Level Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="background-color: #0a0a0e; color: white;" class="card">
+                        <img style="width: 50%; margin: 0px auto" src="./images/one.png" class="card-img-top images1"
+                            alt="...">
+                        <div class="card-body">
+                            <div class="card-title course">Advanced Level Course</div>
+                            <div class="card-title course">(Duration-: 6 Months)</div>
+                            <p class="card-text course1">A Dive with CEH (Certified Ethical Hacker)</p>
+                            <a style="width: 100%;" href="https://massmaticcyberforensic.winuall.com/store-details/cyber-security-and-ethical-hacking-advanced-level-ab8b9e" class="btn btn-danger">Advanced Level Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="background-color: #0a0a0e; color: white;" class="card">
+                        <img style="width: 50%; margin: 0px auto" src="./images/one.png" class="card-img-top images1"
+                            alt="...">
+                        <div class="card-body">
+                            <div class="card-title course">Expert Level Course</div>
+                            <div class="card-title course">(Duration-: 18 Months)</div>
+                            <p class="card-text course1">Deep Dive into the world of Information Security & Cyber
+                                Security</p>
+                            <a style="width: 100%;" href="https://massmaticcyberforensic.winuall.com/store-details/expert-level-certificate-in-cyber-security-dc2aba" class="btn btn-danger">Expert Level Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="background-color: #0a0a0e; color: white;" class="card">
+                        <img style="width: 50%; margin: 0px auto" src="./images/one.png" class="card-img-top images1"
+                            alt="...">
+                        <div class="card-body">
+                            <div class="card-title course">Cyber Crime Course</div>
+                            <div class="card-title course">(Duration-: 3 Months)</div>
+                            <p class="card-text course1">A Dive to Become Certified Investigation Officer</p>
+                            <a style="width: 100%;" href="https://massmaticcyberforensic.winuall.com/store-details/certified-cyber-crime-investigation-officer-course-4e8794" class="btn btn-danger">CCCIO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team-Section -->
+    <div>
+        <div class="courseHeading">OUR TEAM
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div style="background-color: #0a0a0e; color: white; border: 2px solid white" class="card">
+                    <img style="width: 50%; margin: 12px auto; border-radius: 50%; border: 2px solid black; padding: 4px ; background-color: white;" src="./images/Amit.jpg" class="card-img-top images1"
+                        alt="...">
+                    <div class="card-body">
+                        <div class="card-title course">Amit Malhotra</div>
+                        <a class="anchor" href="/">CEO</a>
+                        <p class="card-text course1">Amit Malhotra has been awarded the title of "Cyber Crime Investigation Specialist" at All India Police Training Partners in 2016.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="background-color: #0a0a0e; color: white; border: 2px solid white" class="card">
+                    <img style="width: 50%; margin: 12px auto; border-radius: 50%; border: 2px solid black; padding: 4px ; background-color: white;" src="./images/Vishwanath.jpg" class="card-img-top images1"
+                        alt="...">
+                    <div class="card-body">
+                        <div class="card-title course">Vishwanath Agarwal</div>
+                        <a class="anchor" href="/">MANAGING DIRECTOR</a>
+                        <p class="card-text course1">He is a Founder Trustie in Maharaja Agrasen Hospital & President Agarwal Sabha & Founder Trustee (Delhi)of ABCSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="background-color: #0a0a0e; color: white; border: 2px solid white" class="card">
+                    <img style="width: 50%; margin: 12px auto; border-radius: 50%; border: 2px solid black; padding: 4px ; background-color: white;" src="./images/Harpreet.jpg" class="card-img-top images1"
+                        alt="...">
+                    <div class="card-body">
+                        <div class="card-title course">Harpreet Singh</div>
+                        <a class="anchor" href="/">MANAGING DIRECTOR (PUNJAB)</a>
+                        <p class="card-text course1">Harpreet is a Expert From Infosys.He is Punjab Police Advisor working with Punjab Police to fight with Cyber Criminals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="background-color: #0a0a0e; color: white; border: 2px solid white" class="card">
+                    <img style="width: 50%; margin: 12px auto; border-radius: 50%; border: 2px solid black; padding: 4px ; background-color: white;" src="./images/Vicky.jpg" class="card-img-top images1"
+                        alt="...">
+                    <div class="card-body">
+                        <div class="card-title course">Vicky Mishra</div>
+                        <a class="anchor" href="/">IT HEAD</a>
+                        <p class="card-text course1">He is IT Head with the complete knowledge of Computer Hardware & Networking to find bugs in the Network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
